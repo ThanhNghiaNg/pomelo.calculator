@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.owwi_newui.twa",
+      "sha256_cert_fingerprints":
+        ["1D:4F:6D:FA:1E:2C:BD:4D:80:EA:A3:72:53:F7:5B:16:43:0E:A6:A3:33:45:11:6C:09:86:EE:47:2F:E5:F2:60"]
+    }
+  }
+]
