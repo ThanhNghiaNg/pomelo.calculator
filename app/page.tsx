@@ -46,7 +46,7 @@ export default function CalculatorPage() {
     if (!isNaN(num1) && !isNaN(num2) && !isNaN(numLayers)) {
       let totalFruits = numAdd - numSubtract;
       for (let i =0; i<numLayers; i++){
-        totalFruits = (num1 + i) * (num2 + i);
+        totalFruits += (num1 + i) * (num2 + i);
       }
       const totalBoxes = Math.floor(totalFruits / 12)
       const moduloBoxes = totalFruits % 12 || 0
